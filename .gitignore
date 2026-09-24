@@ -1,0 +1,62 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets and generated data
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Experiment tracking, runs, and logs
+runs/
+logs/
+wandb/
+mlruns/
+lightning_logs/
+ray_results/
+*.log
+
+# Trained models, checkpoints, and generated artifacts
+artifacts/
+outputs/
+checkpoints/
+models/
+*.ckpt
+*.h5
+*.keras
+*.onnx
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.joblib
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
