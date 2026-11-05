@@ -60,3 +60,6 @@ dist/
 .vscode/
 .DS_Store
 Thumbs.db
+.agents/
+.codex/
+.aws/
